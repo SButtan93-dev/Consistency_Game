@@ -1,0 +1,34 @@
+The game was tested on Win-32 Release format on Visual Studio 2015 for 'Multi-Byte character set'. In order to install the game. Follow the steps:
+1. Create an empty 'Win32 Console Application' project in VS2015.
+2. Link additional libraries and include directories.
+3. Input the following dlls in the same project folder-
+irrKlang.lib
+freeglut.lib
+glew32.lib
+glew32s.lib
+openal32.lib
+sfml-audio.lib
+sfml-audio-d.lib
+sfml-audio-s.lib
+sfml-audio-s-d.lib
+sfml-graphics.lib
+sfml-graphics-d.lib
+sfml-graphics-s.lib
+sfml-graphics-s-d.lib
+sfml-main.lib
+sfml-main-d.lib
+sfml-network.lib
+sfml-network-d.lib
+sfml-network-s.lib
+sfml-network-s-d.lib
+sfml-system.lib
+sfml-system-d.lib
+sfml-system-s.lib
+sfml-system-s-d.lib
+sfml-window.lib
+sfml-window-d.lib
+sfml-window-s.lib
+sfml-window-s-d.lib
+DevIL.lib
+ILU.lib
+ILUT.lib
