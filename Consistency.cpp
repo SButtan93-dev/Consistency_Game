@@ -217,7 +217,7 @@ void build_buttons()
 	glEnd();
 	if (music_on == false)//TURN ON the song if it is not playing.
 	{
-		char* name_0 = "01_First_Day_of_Sun.mp3";
+		char* name_0 = "Music\01_First_Day_of_Sun.mp3";
 		SoundEngine->play2D(name_0, GL_TRUE);
 		music_on = true;
 	}
@@ -433,7 +433,7 @@ void mouse(int button, int state, int x, int y) {
 				textures = 0;
 			}
 			SoundEngine->stopAllSounds();
-			char* name_1 = "01_Golden_Sky.mp3";
+			char* name_1 = "Music\01_Golden_Sky.mp3";
 			SoundEngine->play2D(name_1, GL_TRUE);
 			return;
 
