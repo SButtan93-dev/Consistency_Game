@@ -848,9 +848,9 @@ int main(int argc, char** argv) {
 
 	
 	ilInit();/* OpenGL 2D generic init */
-	argv[0] = "Capture.jpg";	
-	argv[1] = "Capture1.jpg";
-	argv[2] = "Capture2.jpg";
+	argv[0] = "Images\Capture.jpg";	
+	argv[1] = "Images\Capture1.jpg";
+	argv[2] = "Images\Capture2.jpg";
 	for (int p = 0; p <= 2; p++)
 	{
 		image[p] = LoadImage(argv[p]);
@@ -864,44 +864,44 @@ int main(int argc, char** argv) {
 		glBindTexture(GL_TEXTURE_2D, textures[p]); /* Binding of texture name */
 		bind_img();
 	}
-	char* exit_button = "Capture1.jpg";
+	char* exit_button = "Images\Capture1.jpg";
 	image[0] = LoadImage(exit_button);
 	glGenTextures(1, &ext_but[0]); /* Texture name generation */
 	glBindTexture(GL_TEXTURE_2D, ext_but[0]); /* Binding of texture name */
 	bind_img();
-	char* lose = "LOSE.jpg";
+	char* lose = "Images\LOSE.jpg";
 	image[1] = LoadImage(lose);
 	glGenTextures(1, &lose_but[0]); /* Texture name generation */
 	glBindTexture(GL_TEXTURE_2D, lose_but[0]); /* Binding of texture name */
 	bind_img();
-	char* you = "YOU.jpg";
+	char* you = "Images\YOU.jpg";
 	image[2] = LoadImage(you);
 	glGenTextures(1, &you_but[0]); /* Texture name generation */
 	glBindTexture(GL_TEXTURE_2D, you_but[0]); /* Binding of texture name */
 	bind_img();
-	char* won = "WON.jpg";
+	char* won = "Images\WON.jpg";
 	image[3] = LoadImage(won);
 	glGenTextures(1, &won_but[0]); /* Texture name generation */
 	glBindTexture(GL_TEXTURE_2D, won_but[0]); /* Binding of texture name */
 	bind_img();
-	char* tgt_scr = "TARGET.jpg";
+	char* tgt_scr = "Images\TARGET.jpg";
 	image[3] = LoadImage(tgt_scr);
 	glGenTextures(1, &tgt_score[0]); /* Texture name generation */
 	glBindTexture(GL_TEXTURE_2D, tgt_score[0]); /* Binding of texture name */
 	bind_img();
 	int q = 3;
-	argv[3] = "num0.jpg";
-	argv[4] = "num1.jpg";
-	argv[5] = "num2.jpg"; 
-	argv[6] = "num3.jpg";
-	argv[7] = "num4.jpg";
-	argv[8] = "num5.jpg";
-	argv[9] = "num6.jpg";
-	argv[10] = "num7.jpg";
-	argv[11] = "num8.jpg";
-	argv[12] = "num9.jpg";
-	argv[13] = "Pause.jpg";
-	argv[14] = "Restart.jpg";
+	argv[3] = "Images\num0.jpg";
+	argv[4] = "Images\num1.jpg";
+	argv[5] = "Images\num2.jpg"; 
+	argv[6] = "Images\num3.jpg";
+	argv[7] = "Images\num4.jpg";
+	argv[8] = "Images\num5.jpg";
+	argv[9] = "Images\num6.jpg";
+	argv[10] = "Images\num7.jpg";
+	argv[11] = "Images\num8.jpg";
+	argv[12] = "Images\num9.jpg";
+	argv[13] = "Images\Pause.jpg";
+	argv[14] = "Images\Restart.jpg";
 	
 	for (int p = 0; p <= 9; p++)
 	{
